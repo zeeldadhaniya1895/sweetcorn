@@ -8,6 +8,7 @@ import UserButton from "@/components/auth/user-button";
 
 export default function Navbar() {
   const { data: session, status } = useSession();
+  
 
   return (
 
